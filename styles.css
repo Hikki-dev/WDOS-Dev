@@ -338,6 +338,14 @@ img {
 		text-align: center;
 		border-top: none;
 	}
+	.TTT{
+		font-size: large;
+		background-color: #4c6ef5;
+		color: white; 
+    		padding: 10px;
+    		text-align: center;
+    		border-radius: 5px;
+	}
 	table {
 		font-size: 20px;
 		border-collapse: separate;
