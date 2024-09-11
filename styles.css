@@ -321,7 +321,7 @@ img:not(.logo):hover {
 }
 /*Table CSS */
 @media only screen and (max-width: 768px) {
-		table, td {
+	table, td {
 		display: block;
 		width: 100%;
 		font-size: 14px;
@@ -339,9 +339,9 @@ img:not(.logo):hover {
 		font-size: large;
 		background-color: #4c6ef5;
 		color: white; 
-    		padding: 10px;
-    		text-align: center;
-    		border-radius: 5px;
+    	padding: 10px;
+    	text-align: center;
+    	border-radius: 5px;
 	}
 	table {
 		font-size: 20px;
@@ -349,7 +349,7 @@ img:not(.logo):hover {
 		border-spacing: 0 15px;
 	}
 	th .dis {
-		display: none;
+        display: none;
     }
 	th{
 		display: none;
