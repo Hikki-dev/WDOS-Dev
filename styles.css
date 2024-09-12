@@ -318,6 +318,7 @@ img:not(.logo):hover {
 }
 img{
 	border-radius: 30px;
+	transition: transform 0.3s ease-in-out;
 }
 .logo{
 	outline: none;
