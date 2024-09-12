@@ -319,6 +319,14 @@ img:not(.logo):hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 	border-radius: 20px
 }
+.logo{
+	outline: none;
+	border: none;
+	box-shadow: none;
+	width: 150px;
+    	height: auto;
+}
+	
 /*Table CSS */
 @media only screen and (max-width: 768px) {
 	table, td {
