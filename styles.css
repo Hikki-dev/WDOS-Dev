@@ -310,10 +310,6 @@ tfoot {
 	text-align: left;
 	margin-bottom: 10px;
 }
-img:hover {
-	transform: scale(1.1);
-	box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-}
 img:not(.logo):hover {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -326,7 +322,6 @@ img:not(.logo):hover {
 	width: 150px;
     	height: auto;
 }
-	
 /*Table CSS */
 @media only screen and (max-width: 768px) {
 	table, td {
