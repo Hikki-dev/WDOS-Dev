@@ -321,6 +321,7 @@ img:not(.logo):hover {
 	box-shadow: none;
 	width: 150px;
     	height: auto;
+	display: flex;
 }
 /*Table CSS */
 @media only screen and (max-width: 768px) {
