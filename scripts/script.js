@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let medicines = {};
 
     // Fetch the medicines data from the JSON file
-    fetch('/json/medicines.json')
+    fetch('/WDOS-Dev/json/medicines.json')
         .then(response => response.json())
         .then(data => {
             medicines = data;
