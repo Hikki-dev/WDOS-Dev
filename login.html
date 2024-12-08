@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="Favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Favicon/favicon-16x16.png">
+    <link rel="manifest" href="Favicon/site.webmanifest">
+    <link rel="mask-icon" href="Favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Logo" class="logo">
+        <h1>Welcome to PoppySeed Hospitals</h1>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about us.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="doctors.html">Doctors</a></li>
+                <li><a href="reservations.html">Reservation</a></li>
+                <li><a href="pharmacy.html">Pharmacy</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="login-container">
+        <h2 class="login-title">Login</h2>
+        <form action="login" method="post" class="login-form">
+            <div class="form-group">
+                <label for="username" class="form-label">Username</label>
+                <input type="username" id="username" name="username" class="form-input" required>
+            </div>
+            <div class="form-group">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" id="password" name="password" class="form-input" required>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Login" class="submit-button">
+            </div>
+            <div class="form-group">
+                <a href="#" class="forgot-password">Forgot Password?</a>
+            </div>
+        </form>
+
+        <div class="extra-options">
+            <p>Don't have an account? <a href="signup.html" class="signup-link">Sign Up</a></p>
+            <div class="social-login">
+                <button class="social-btn google-btn">Google</button>
+                <button class="social-btn facebook-btn">Facebook</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 PoppySeed Hospitals. All rights reserved.</p>
+    </footer>
+</body>
+</html>
