@@ -1,0 +1,42 @@
+{
+  "Analgesics": [
+    { "name": "Aspirin", "price": 5, "image": "images/aspirin.jpg" },
+    { "name": "Ibuprofen", "price": 8, "image": "images/ibuprofen (2).jpg" },
+    { "name": "Paracetamol", "price": 3, "image": "images/paracetamol.jpg" },
+    { "name": "Naproxen", "price": 7, "image": "images/naproxen.jpg" },
+    { "name": "Diclofenac", "price": 6, "image": "images/Diclofenac (2).jpg" },
+    { "name": "Celecoxib", "price": 9, "image": "images/celecoxib.jpg" }
+  ],
+  "Antibiotics": [
+    { "name": "Amoxicillin", "price": 12, "image": "images/amoxicillin.jpg" },
+    { "name": "Ciprofloxacin", "price": 10, "image": "images/ciprofloxacin.jpg" },
+    { "name": "Azithromycin", "price": 14, "image": "images/azithromycin.jpg" },
+    { "name": "Penicillin", "price": 6, "image": "images/Penicillin.jpg" },
+    { "name": "Tetracycline", "price": 5, "image": "images/tetracycline.jpg" },
+    { "name": "Doxycycline", "price": 7, "image": "images/Doxycycline.jpg" }
+  ],
+  "Antidepressants": [
+    { "name": "Fluoxetine", "price": 15, "image": "images/Fluoxetine.jpg" },
+    { "name": "Sertraline", "price": 13, "image": "images/sertraline.jpg" },
+    { "name": "Citalopram", "price": 11, "image": "images/citalopram.jpg" },
+    { "name": "Escitalopram", "price": 16, "image": "images/Escitalopram.jpg" },
+    { "name": "Paroxetine", "price": 12, "image": "images/paroxetine.jpg" },
+    { "name": "Duloxetine", "price": 17, "image": "images/duloxetine.jpg" }
+  ],
+  "Antihistamines": [
+    { "name": "Diphenhydramine", "price": 4, "image": "images/diphenhydramine.jpg" },
+    { "name": "Loratadine", "price": 6, "image": "images/loratadine.jpg" },
+    { "name": "Cetirizine", "price": 5, "image": "images/Cetirizine.jpg" },
+    { "name": "Fexofenadine", "price": 7, "image": "images/Fexofenadine.jpg" },
+    { "name": "Doxylamine", "price": 10, "image": "images/Doxylamine.jpg"},
+    { "name": "Levocetirizine", "price": 20, "image": "images/Levocetirizine.jpg"}
+  ],
+  "Antihypertensives": [
+    { "name": "Lisinopril", "price": 18, "image": "images/lisinopril.jpg" },
+    { "name": "Amlodipine", "price": 16, "image": "images/amlodipine.jpg" },
+    { "name": "Losartan", "price": 17, "image": "images/Losartan.jpg" },
+    { "name": "Metoprolol", "price": 14, "image": "images/Metoprolol.jpg" },
+    { "name": "Hydroxychloroquine", "price": 13, "image": "images/Hydroxychloroquine.jpg" },
+    { "name": "Valsartan", "price": 19, "image": "images/valsartan.jpg" }
+  ]
+}

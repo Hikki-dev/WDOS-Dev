@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmacy - PoppySeed Hospitals</title>
+    <link rel="stylesheet" href="styles/pharmacy.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="Favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Favicon/favicon-16x16.png">
+    <link rel="manifest" href="Favicon/site.webmanifest">
+    <link rel="mask-icon" href="Favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+<header>
+    <img src="images/logo.png" alt="PoppySeed Hospitals Logo" class="logo">
+    <h1>Pharmacy</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about us.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="doctors.html">Doctors</a></li>
+            <li><a href="reservations.html">Consultation</a></li>
+            <li><a href="pharmacy.html">Pharmacy</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section>
+        <h2>Our Pharmacy Services</h2>
+        <p>
+            Our pharmacy is fully stocked with a wide range of medications and health products. We offer personalized medication management and expert advice to ensure the best outcomes for your health.
+        </p>
+    </section>
+
+    <section>
+        <h2>Order Your Prescription</h2>
+        <label for="search-input"></label><input type="text" id="search-input" placeholder="Search for medicines...">
+    </section>
+
+    <section id="medicines-section">
+        <h3 id="analgesics-heading" class="category-heading">Analgesics</h3>
+        <div id="analgesics" class="medication-section"></div>
+
+        <h3 id="antibiotics-heading" class="category-heading">Antibiotics</h3>
+        <div id="antibiotics" class="medication-section"></div>
+
+        <h3 id="antidepressants-heading" class="category-heading">Antidepressants</h3>
+        <div id="antidepressants" class="medication-section"></div>
+
+        <h3 id="antihistamines-heading" class="category-heading">Antihistamines</h3>
+        <div id="antihistamines" class="medication-section"></div>
+
+        <h3 id="antihypertensives-heading" class="category-heading">Antihypertensives</h3>
+        <div id="antihypertensives" class="medication-section"></div>
+    </section>
+
+    <h3>Shopping Cart</h3>
+    <table id="shopping-cart" class="pharmacy-table">
+        <thead>
+        <tr>
+            <th>Item</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+            <th>Action</th>
+        </tr>
+        </thead>
+        <tbody id="cart-table-body">
+        </tbody>
+        <tfoot>
+        <tr>
+            <td colspan="3" style="text-align: right;">Total:</td>
+            <td id="total-price">$0.00</td>
+            <td></td>
+        </tr>
+        </tfoot>
+    </table>
+
+    <div class="cart-buttons">
+        <button id="buy-now">Buy Now</button>
+        <button id="saveFavoritesButton">Save Favorites</button>
+        <button id="applyFavoritesButton">Apply Favorites</button>
+        <button id="clear-cart">Clear Cart</button>
+    </div>
+    <div id="favorites-container">
+        <h3>Your Saved Favorites</h3>
+        <ul id="favorites-list">
+            <!-- List of favorites will be rendered here -->
+        </ul>
+    </div>
+</main>
+
+<footer>
+    <p>© 2024 PoppySeed Hospitals. All rights reserved. | <a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a></p>
+</footer>
+</body>
+<script src="/scripts/script.js"></script>
+</html>

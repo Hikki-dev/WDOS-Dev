@@ -1,0 +1,222 @@
+/* Basic styles for smaller screens (mobile-first approach) */
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #ffffff;
+    font-size: large;
+}
+.logo{
+    outline: none;
+    border: none;
+    box-shadow: none;
+    width: 150px;
+    height: auto;
+    display: flex;
+}
+header {
+    background-color: #5457fd;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid #5457fd;
+}
+nav {
+    display: flex;
+    justify-content: center; /* Center items */
+    background-color: #5457fd;
+}
+
+nav ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 5px; /* Reduced margin */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 10px; /* Reduced padding */
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #5457fd;
+    color: #fff;
+}
+main {
+    flex: 1;
+    padding: 40px;
+    margin: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+footer {
+    text-align: center;
+    background-color: #5457fd;
+    color: #ffffff;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+    position: relative;
+    margin-top: auto;
+    box-sizing: border-box
+}
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Reset margins and paddings for form elements */
+input[type="radio"], label {
+    margin: 0;
+    padding: 0;
+}
+
+/* Adjust the spacing between the radio button and label */
+label {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+/* Ensure there is no extra space around the entire form */
+form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Use flexbox to align form elements neatly */
+.payment-method {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Space between each radio button and label */
+    margin-bottom: 20px; /* Adjust space below the section */
+}
+
+/* Style the submit button */
+button {
+    padding: 12px 20px;
+    background-color: #5457fd;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #5457fd;
+}
+
+form {
+    display: grid;
+    grid-gap: 15px;
+}
+form input[type="text"],form input[type="email"],form input[type="tel"],form input[type="Date"],form input[type="Time"],form input[type="doctor-list"]form select,form textarea {
+    width: 97%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+form input[type="submit"] {
+    background-color: #5457fd;
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+form input[type="submit"]:hover {
+    background-color: #5457fd;
+}
+@media only screen and (max-width: 768px) {
+    header h1 {
+        font-size: 30px;
+    }
+    form input, form select, form textarea {
+        padding: 10px;
+    }
+}
+.form-input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form{
+    width: 80%;
+}
+/* Base styles for the form elements */
+form input,form textarea {
+    width: 97%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    form input,form select,form textarea {
+        max-width: 100%;
+        padding: 10px;
+        margin: 0 auto;
+    }
+    form input[type="submit"] {
+        width: auto;
+        padding: 12px;
+        background-color: #5457fd;
+        color: #ffffff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    form input[type="submit"]:hover {
+        background-color: #5457fd;
+    }
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+th {
+    background-color: #5457fd;
+    color: #ffffff;
+}
+tfoot {
+    font-weight: bold;
+}
