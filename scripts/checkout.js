@@ -324,4 +324,10 @@ document.getElementById('delivery-form').addEventListener('submit', function (e)
         // Optionally submit the form here
         // this.submit();
     }
+    document.addEventListener("DOMContentLoaded", () => {
+    const button = document.getElementById("checkoutButton");
+    button.addEventListener("click", () => {
+        alert("Purchase complete");
+    });
+});
 });
