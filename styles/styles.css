@@ -328,46 +328,6 @@ img{
     	height: auto;
 	display: flex;
 }
-/*Table CSS */
-@media only screen and (max-width: 768px) {
-	table, td {
-		display: block;
-		width: 100%;
-		font-size: 14px;
-	}
-	 td {
-		padding: 10px;
-		box-sizing: border-box;
-	}
-	
-	td {
-		text-align: center;
-		border-top: none;
-	}
-	.TTT{
-		font-size: large;
-		background-color: #4c6ef5;
-		color: white; 
-    	padding: 10px;
-    	text-align: center;
-    	border-radius: 5px;
-	}
-	table {
-		font-size: 20px;
-		border-collapse: separate;
-		border-spacing: 0 15px;
-	}
-	th .dis {
-        display: none;
-    }
-	th{
-		display: none;
-	}
-	.loc{
-		display: block;
-		font-weight: bold;
-	}
-}
 @media (max-width: 768px) {
 	nav {
 		flex-direction: column;
